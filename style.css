@@ -1,0 +1,40 @@
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-image: linear-gradient(to right top, #1616d8, #004de2, #0066d6, #0078bf, #0085a6, #0086a6, #0088a5, #0089a5, #0080bd, #0073d6, #0060e5, #083fe3);  
+  }  
+  button {   
+         background-color: #4CAF50;   
+         width: 100%;  
+         margin-left:20px;
+          color:whitesmoke;   
+          padding: 15px;   
+          margin: 10px 0px;   
+          border: none;   
+          cursor: pointer; 
+            
+           }   
+   form {   
+          border: 3px solid #f1f1f1;   
+      }   
+   input[type=text], [type=number]{   
+          width: 100%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          /* display: flex;    */
+          border: 2px solid green;   
+          box-sizing: border-box;   
+      }  
+      input [type=radio] {
+          width: 50px;
+      }
+   button:hover {   
+          opacity: 0.7;   
+      }   
+    
+          
+       
+   .container {   
+          padding: 25px;   
+          align-items: center;
+          /* background-color: lightblue;   */
+      }   
